@@ -1,37 +1,262 @@
+html {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+body {
+    margin: 0px;
+    background-color:  rgb(34, 34, 34);
+}
+
+button {
+    margin: 12px;
+    font-size: 18px;
+    border-width: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    color: #D4D7DD;
+    background-color: rgb(34, 34, 34);
+    font-family: Abel, sans-serif;
+    text-align: center;
+    float: left;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 20px;
+    
+}
+
+button:hover {
+    background-color: #D4D7DD;
+    color:rgb(34, 34, 34);
+    font-weight: bolder;
+}
+
+
+.HeaderRight {
+    float: right;
+    margin-right: 120px;
+}
+
+header {
+    height: 60px;
+    overflow: hidden;
+    margin-bottom: 0px;
+    background-color: rgb(34, 34, 34);
+    display: inline-block;
+    padding: 20px 10px;
+    width: 100%;
+
+    
+}
+
+header h1 {
+    font-size: 45px;
+    color: gray;
+    padding-left: 1%;
+    padding-top: 2px;
+    margin: 0px;
+    display: inline-block;
+}
+
 h1 {
-    color: bisque;
+    color:antiquewhite;
+    
     font-size: 90px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Allerta Stencil', sans-serif;
+    
     margin-bottom: 20px;
 
 }
 
 h2 {
     color:azure;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
+    font-family: Cinzel, sans-serif;
+    font-weight: lighter;
 }
 
-h3 {
-    color:antiquewhite;
-    background-color:saddlebrown;
-    width: auto;
-    align-content: center;
-    text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 15px;
-   
-}
+
+
 .Banner {
-    background-image: url("/Users/kylelamothe/Documents/FrontEndProjects1/HumbleCarpSite/resources/images/GarageDoor.png");
-    background-size:cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("/Users/kylelamothe/Documents/FrontEndProjects1/HumbleCarpSite/resources/images/GarageDoor.png");
+    
     align-self: stretch;
     height: 500px;
-    padding-top: 120px;
-    background-repeat: no-repeat;
+    
+    
     width: auto;
     color: black;
     
-    margin-top: 75px;
+    margin-top: 0px;
     text-align: center;
+    padding-top: 120px;
+    
+   
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+/* .Banner img {
+    filter: brightness(50%);
+} */
+
+
+.contentSection {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    
+  
+}
+h3 {
+    display: block;
+    color:rgb(34, 34, 34);
+    font-size: 40px;
+    width: auto;
+    text-align: center;
+    font-family: Abel, sans-serif;
+    font-weight: bolder;
+    padding: 15px;
+    padding-top: 55px;
+    margin: 10px;
+   
+}
+
+
+
+#GalleryTitle h3 {
+   display: block;
+   
+   justify-content: center;
+}
+
+.picture {
+    background-color: blue;
+    width: 55px;
+    height: 55px;
+    display: block;
+    margin: 15px;
+}
+
+
+.photo {
+
+    max-width: 350px;
+    max-height: 550px;
+    margin: 0 auto;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 0px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.GalleryRow a {
+    justify-content: center;
+    display: flex;
+}
+
+.GalleryRow {
+ 
+  width: 70%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  
+
+
+} 
+
+
+
+
+
+
+h4 {
+    margin: 30px;
+    font-family: Abel, sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+h5 {
+    font-family: Abel, sans-serif;
+    font-size: 22px;
+    font-weight: light;
+    margin: 25px;
+    padding-top: 30px;
+    padding-bottom: 55px;
+
+}
+
+#why {
+    background-color:silver ;
+    height: 300px;
+}
+#SwingImage {
+    display: inline-block;
+    height: 300px;
+    width: auto;
+
+}
+
+#contactInfo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contactImage {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin: 40px 20px;
+    vertical-align: middle;
+}
+#About {
+    text-align: left;
+   
+}
+
+footer {
+   
+    display: flex;
+    justify-content: center;
+  
+
+
+    height: 125px;
+    background-color: #500000;
+    width: 100%;
+    
+}
+
+
+
+
+footer p {
+    font-family: Abel, sans-serif;
+    font-size: 20px;
+    color: silver;
+    margin-top: 55px;
+    margin-left: 200px;
+    margin-right: 200px;    
+    width: 300px;
