@@ -8,6 +8,36 @@ body {
     background-color:  rgb(34, 34, 34);
 }
 
+
+
+.Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("/images/GarageDoor.png");
+    align-self: stretch;
+    height: 500px;
+    width: auto;
+    color: black;
+    
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 120px;
+    
+   
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .Banner img {
+    filter: brightness(50%);
+} */
+
+
+
 button {
     margin: 12px;
     font-size: 18px;
@@ -74,36 +104,6 @@ h2 {
     font-weight: lighter;
 }
 
-
-
-.Banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url("images/GarageDoor.png");
-    
-    align-self: stretch;
-    height: 500px;
-    
-    
-    width: auto;
-    color: black;
-    
-    margin-top: 0px;
-    text-align: center;
-    padding-top: 120px;
-    
-   
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* .Banner img {
-    filter: brightness(50%);
-} */
 
 
 .contentSection {
