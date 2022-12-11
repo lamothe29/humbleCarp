@@ -78,7 +78,7 @@ h2 {
 
 .Banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url("/Users/kylelamothe/Documents/FrontEndProjects1/HumbleCarpSite/resources/images/GarageDoor.png");
+    rgba(0, 0, 0, 0.5)), url("images/GarageDoor.png");
     
     align-self: stretch;
     height: 500px;
